@@ -20,11 +20,11 @@ module Splurty
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
-    #Ad the fonts path
-    config.assets.paths << "#{rails.root}/app/assets/fonts"
+    #Add the fonts path
+    config.assets.paths << "#{Rails.root}/app/assets/fonts"
 
     #Precompile additional assets
-    config.assets.precompile +=%w( .svg .eot. .woff .ttf)
+    config.assets.precompile += %w( .svg .eot. .woff .ttf)
 
 
 

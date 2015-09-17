@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
 
 
 .clear {
@@ -38,7 +37,9 @@
 .links a{
     color:black;
     font-size: 25 px;
-    border-bottom:1px solid#508596;
+    border-bottom:1px solid #508596;
+    font-family: 'kaushan_scriptregular';
+    font-weight: bold;
 }
 
 header {
@@ -51,9 +52,11 @@ hr {
 }
 
 h1 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'kaushan_scriptregular';
+    font-weight:bold;
+    font-size: 48px;
 }
 
 h2 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'kaushan_scriptregular';
 }
